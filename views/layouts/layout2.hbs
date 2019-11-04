@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title></title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+</head>
+<body> 
+{{> header}}
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BOOKBYTE.COM</a>
+        <button  class="navbar-toggler" data-toggle="collapse" data-target="#whatever">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="whatever">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="/index" class="nav-link">HOME</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/pdf" class="nav-link">PDFS</a>
+                    </li>
+                    <li class="navbar-item">
+                            <a href="/categories" class="nav-link">CATEGORIES</a>
+                    </li>
+                    <li class="navbar-item">
+                            <a href="/sell" class="nav-link">SELL</a>
+                    </li>
+                    <li class="navbar-item">
+                            <a href="/about" class="nav-link">ABOUT</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>   
+ {{!-- <div class="nav-search">
+      <form>
+    <input type="search" name="q" placeholder="enter your search">
+       <input type="button" value="search">
+    </form>
+    </div>   --}}
+</div>
+    {{{ body }}}
+<div class="main_footer">
+    <div class="social_icons">
+    <ul>
+        <li><a href="https://www.facebook.com/suraj.oberai.5" target="blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/OberaiSurazz" target="blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCSyTeQpRGhi8VKX1MN2BDxA?view_as=subscriber" target="blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.google.com" target="blank"><i class="fa fa-google"></i></a></li>
+        </ul>     
+     </div>
+   <div class="self_intro">
+       <p>&copy; 2019 SURAJ OJHA </p>
+       <p>   CONTACT NO 9864421474 </p>
+     <a href="ojhasuraj01@gmail.com"> e-mail : ojhasuraj01@gmail.com</a>
+   </div>
+</div>
+<script
+			  src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/javascripts/toggle.js"></script>
+</body>
+</html>

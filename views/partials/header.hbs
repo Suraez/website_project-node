@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="header_text">
+       <header style="text-align: center; font-family: verdana"> BNSBOOKS.COM <br>
+         <h>
+          THE WEBSITE FOR PDFS AND BOOKS TO BUY AND SELL
+         </h>
+        </header> 
+  </div>
+   <div class="logo">
+     <a href="/index"><img src="/images/logo2.png"></a> 
+    </div>
+  <div class="nav">
+  <ul>
+    {{# if signin }}
+    <li><a href="/user/logout">Log Out</a></li>    
+   {{else}}
+    <li><a href="/user/signin">Sign In</a></li>
+    <li><a href="/user/signup">Sign Up</a></li>
+  {{/if}}
+  </ul>
+</div>    
+</div>

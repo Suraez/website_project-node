@@ -1,0 +1,49 @@
+{{# if success}}
+   <section class="success">
+       <h2>Form submitted!</h2>
+   </section>
+{{else}}
+    {{# if errors}}
+       <section class="errors">
+           <ul>
+               {{# each errors}}
+                 <li>{{ this.msg }}</li>
+               {{/each}}
+           </ul> 
+       </section>
+    {{/if}}
+<section class="Upload_book">
+  <h3>Fill up the information of book</h3>
+   <form action="/sell" method="POST">
+     <div class="input">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control">
+    </div>
+    <div class="input">
+         <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" class="form-control">
+    </div>
+    <div class="input">
+         <label for="phone">Phone No:</label>
+        <input type="number" id="phone" name="phone" class="form-control">
+    </div>
+    <div class="input">
+         <label for="book_name">Book Name:</label>
+        <input type="text" id="book_name" name="book_name" class="form-control">
+    </div>
+    <div class="input">
+         <label for="book_price">Book Price:</label>
+        <input type="text" id="book_price" name="book_price" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+ </form>
+</section>
+{{/if}}
+
+
+
+
+
+
+
+

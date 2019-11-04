@@ -1,0 +1,461 @@
+    
+/* Layout CSS */
+
+       *{
+            margin: 0;
+            padding: 0;
+           box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            background: #eeeeee;
+         }
+        .header{
+        height: 235px;
+        background: white;
+        border: 1px solid red;
+        }
+      .logo{
+        float: left;
+        margin-left: 24px;
+        position: relative;
+        top: -78px;
+       }
+       .header_text{
+        width: 70%;
+        position: relative;
+        top: 85px;
+        left: 222px;
+       }
+       .nav{
+        width: 154px;
+        float: right;
+        position: relative;
+        top: -95px;
+        right: 29px;
+    }
+    .nav ul li{
+        display: inline-block;
+        padding: 10px;
+        background: #33ff33;
+    }
+
+    .nav ul li a{
+        text-decoration: none;
+    }
+
+    .nav ul li a:hover{
+        color:black;
+    }
+    .nav ul li:hover{
+        background :#8aeaa2;
+    }   
+       .logo img{
+          width: 180px;
+          height: 180px;
+        }
+
+        header{
+            margin: 20px 10px;
+            color: deeppink;
+            font-size: 24px;
+        }
+        .links{
+            width: 100%;
+            position: relative;
+            background: black;
+            height: 55px;
+        }
+        .nav-links{
+            padding-top:18px;
+            width: 80%;
+            float: left;
+            margin-left: 30px;
+        }
+        .nav-search{
+            width: 17%;
+            float: right;
+            margin-top: 18px;
+           }
+        .nav-links nav ul{
+            list-style: none;   
+        }
+        .nav-links nav ul li{
+            width:75px;
+            float:left;
+            height: 25px;
+            text-align: center;
+            margin-right: 140px;
+        }
+        .nav-links nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+         .nav-links nav ul li ul li a{
+            text-decoration: none;
+        }
+        .nav-links nav ul li ul{
+            display:none;
+        }
+        .nav-links nav ul li:hover ul{
+            display: block;
+        } 
+        .nav-links nav ul li ul li{
+            border-top:1px solid #c1c1c1;
+            height:50px;
+            background:black;
+            width:120px;
+            text-align: center;
+            padding: 5px;
+        }
+        .nav-links ul li a:hover{
+            text-decoration: underline;
+            background: #d8b800;
+            color:currentColor;
+        }
+.nav-links ul li ul li:hover {
+    background:#51514f;
+}
+.nav-links ul li ul li a:hover{
+    background:none;
+}
+/* index_container css */
+
+.container{
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.introduction{
+    width: 100%;
+    height: 270px;
+}
+.welcome {
+    width: 40%;
+    background: white;
+    float: left;
+    margin: 10px 20px;
+    width: 45%;
+}
+.welcome-header{
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.welcome-text{
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 25px;
+}
+
+.help{
+    float: right;
+    width: 28%;
+    margin: 10px;
+    margin-right: 0px;
+    background: white;
+    
+}
+
+
+#myDiv ul{
+    padding: 25px;
+    background: #32CD32;
+}
+
+#myDiv1 ul{
+    padding: 25px;
+    background: #32CD32;
+}
+
+#myDiv ul li{
+    background: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#myDiv1 ul li{
+    background: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.headerr {
+    line-height: 24px;
+    margin: 10px;
+    text-align: center;
+}
+
+.item{
+    border: 1px solid goldenrod;
+    width: 320px;
+    background: #ffffff;
+    float: left;
+    margin: 5px;
+    padding: 1mm;
+}
+.item div{
+    margin: 1mm;
+}
+/* footer css */
+.main_footer{
+    width: 100%;
+    background: black;
+    margin: auto;
+    height: 100px;
+    padding: 10px 0px;
+    clear: both;
+    position: relative;
+}
+
+.social_icons {
+    width: 45%;
+    float: left;
+    margin: 10px;
+    padding: 0px 20px;
+    
+}
+.social_icons ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    background :#32CD32;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.social_icons ul li a:hover{
+    color:floralwhite;
+}
+.social_icons ul li:hover{
+    background :#8aeaa2;
+}
+.social_icons ul li:hover a{
+    color:floralwhite;
+}
+.social_icons ul li a{
+    font-size: 30px;
+}
+.self_intro{
+    float: right;
+    color: #fff;
+    margin: 10px;
+}
+.self_intro a{
+    color: #fff;
+    text-decoration: none;
+}
+.self_intro a:hover{
+    color: #e2e2e2;
+    text-decoration: underline;
+}
+
+
+
+
+
+/*
+
+   PDFS CSS
+*/
+
+.pdf_container{
+  border: 1px solid yellow;
+}
+
+.pdfs{
+    width: 200px;
+    margin: 10px 10px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
+
+.pdfs a{
+    text-decoration:none;
+}
+.pdfs a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.pdfs img{
+    width: 70%;
+}
+
+/* REGISTER CSS */
+.registers_container{
+  height: 600px;
+  border: 1px solid red;
+}
+/* .ad {
+    width: 50%;
+    padding: 10px;
+    float: left;
+    margin-top: 40px; /*
+
+*/
+
+.login_page{
+    width: 420px;
+    padding: 10% 0 0;
+    margin: auto;
+    float: right;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 50px 120px 10px;
+    padding: 45px;
+    text-align: center;
+    float: right;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: black;
+    font-size: 18px;
+}
+
+.form .message a{
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.form .register_form {
+    display: none;
+}
+.register_form h2{
+    margin-bottom: 20px;
+}
+.login_form h1{
+    margin-bottom: 20px;
+}
+.wrong_input{
+    outline: 1px solid red; 
+}
+.error {
+color: red;
+}
+/* ABOUT       CSS */
+.member img {
+    height: 250px;
+    width: 250px;
+    margin: 10px 20px;
+    border-radius: 100%;
+}
+.member{
+    width: 320px;
+    height: 420px;
+    float: left;
+    margin: 30px;
+}
+.member_photo{
+    background: white;
+    margin: 10px;
+}
+.member_intro{
+ background: white;
+margin: 10px;
+text-align: center;
+padding: 20px; 
+}
+.member_intro a {
+    display: inline-block;
+    padding: 10px 10px;
+    background :#32CD32;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+}
+.member_intro a:hover{
+    color:floralwhite;
+}
+.member_intro a:hover{
+    background :#8aeaa2;
+}
+.member_intro a:hover a{
+    color:floralwhite;
+}
+/* upload book start*/
+.Upload_book{
+    margin: 15px 510px;
+    background: #ffffff;
+    width: 420px;
+    padding: 10px;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.input{
+    margin: 10px auto;
+}
+
+.input input{
+    background: #f2f2f2;
+    outline: 1;
+    height: 32px;
+    width: 200px;
+}
+.Upload_book button{
+    width: 250px;
+    height: 40px;
+    background: #32CD32;
+    text-align: center;
+    margin: 20px;
+}
+.Upload_book button:hover {
+    background: #43A047;
+}
+
+.errors {
+    background: #e79892;
+    padding: 5px;
+    margin:10px 510px;
+    min-width: 200px;
+    display: inline-block;
+    border: 1px solid #e74c3c;
+  }
+  
+  .errors ul {
+    margin: 15px auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .success {
+    background: #80cca0;
+    padding: 5px;
+  }
+

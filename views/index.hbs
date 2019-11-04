@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="introduction">
+    <div class="welcome">
+      <div class="welcome-header">
+          <h2>Welcome to BNSBOOKS.COM</h2>
+        </div>   
+        <div class="welcome-text">
+            BNSBOOKS.COM is an online platform where students of 
+        IOE and other students as well may have second hand book  
+        and new books which include manual books, reference books etc.
+        in their examination .Apart from this, it also has comic and novel 
+        section. In addition to these,this is the site where pdf books of some 
+        manual books,reference books are available free for download. Thanks for 
+        visiting this site.
+        </div>
+  </div>
+  <div class="help">
+  <div class="help_topics">
+      <div class="headerr">
+       <a href="#" onclick="ShowDiv('myDiv')">How to Sell used books ?</a>
+      </div>
+      <div id="myDiv" style="display: none">
+         <ul>
+           <li>Go to form page</li>
+           <li>Fill up the necessary information about books and contact</li>
+           <li>Wait for the approval of your advertisement</li>
+           <li>Submit your form</li>
+           <li>Happy Selling!</li>
+         </ul>
+     </div>
+  </div>
+  <div class="help_topics">
+      <div class="headerr">
+      <a href="#" onclick="ShowDiv('myDiv1')">How to Buy used books ?</a>
+      </div>
+      <div id="myDiv1" style="display: none">
+         <ul>
+           <li>Find out which book you need to buy</li>
+           <li>Note down the phone no and contact email address of the seller</li>
+           <li>Contact the seller through phone or email</li>
+           <li>Check the availiablity of book</li>
+           <li>Happy Buying!</li>
+         </ul>
+         </div>
+     </div>
+  </div>  
+</div>
+<div class="posts_container">
+  <h2 style="text-decoration: underline; margin:5px">Recently Uploaded</h2>
+        {{# each items }}
+            <article class="item">
+                <div>Name: {{ this.name }}</div>
+                <div>Email: {{ this.email }}</div>
+                <div>Phone: {{ this.phone }}</div>
+                <div>Book Name: {{ this.book_name }}</div> 
+                <div>Book Price: {{ this.book_price }}</div>
+            </article>
+        {{/each}}
+</div>
+</div>
